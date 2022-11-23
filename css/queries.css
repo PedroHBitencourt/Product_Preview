@@ -1,0 +1,50 @@
+@media (max-width: 23em){
+    .bg-img{
+        display: none;
+    }
+
+    .woman-img{
+        background-image: url("../images/illustration-woman-online-mobile.svg");
+        background-repeat: no-repeat;
+        width: 20rem;
+        height: 15rem;
+        left: 4rem;
+        top: -8.5rem;
+        object-fit: none;
+        object-position: none;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 12% 70%;
+        width: 28rem;
+        height: 45rem;
+        margin-top: 6rem;
+    }
+
+    .img-faq{
+        grid-row: 1;
+    }
+
+    .box-img{
+        display: none;
+    }
+
+    .faq-questions{
+        padding: 1.6rem;
+    }
+
+    .questions{
+        padding: 1.2rem 0rem 1.2rem 0rem;
+        border-bottom: 2px solid #eeeeee;
+    }
+
+    .focus-questions{
+        font-size: 1.2rem;
+    }
+
+    h1{
+        margin-bottom: .6rem;
+        text-align: center;
+    }
+}

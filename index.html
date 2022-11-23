@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+  </head>
+  <body>
+    <div class="all-elements">
+      <div class="container">
+
+        <!-- --------------- -->
+        <!-- -----IMAGE----- -->
+        <!-- --------------- -->
+
+        <div class="img-faq">
+          <img src="images/bg-pattern-desktop.svg" alt="Background" class="bg-img">
+          <div class="woman-img"></div>
+          <img src="images/illustration-box-desktop.svg" alt="box img" class="box-img">
+        </div>
+
+        <!-- --------------- -->
+        <!-- ---QUESTIONS--- -->
+        <!-- --------------- -->
+        
+        <div class="faq-questions">
+          <h1>FAQ</h1>
+          <div class="questions">
+            <div class="container-questions">
+              <a href="#" class="focus-questions" onclick="showAnswer(1)">How many team members can I invite?</a> <img src="images/icon-arrow-down.svg" alt="Down arrow" class="down-arrow">
+            </div>
+            
+            <p class="style-ans answers1"></p>
+          </div>
+            
+          <div class="questions">
+            <div class="container-questions">
+              <a href="#"  class="focus-questions" onclick="showAnswer(2)">What is the maximum file upload size?</a> <img src="images/icon-arrow-down.svg" alt="Down arrow" class="down-arrow">
+            </div>
+            
+            <p class="style-ans answers2"></p>
+          </div>
+
+          <div class="questions">
+            <div class="container-questions">
+              <a href="#"  class="focus-questions" onclick="showAnswer(3)">How do I reset my password?</a> <img src="images/icon-arrow-down.svg" alt="Down arrow" class="down-arrow">
+            </div>
+            
+            <p class="style-ans answers3"></p>
+          </div>
+
+          <div class="questions">
+            <div class="container-questions">
+              <a href="#"  class="focus-questions" onclick="showAnswer(4)">Can I cancel my subscription?</a> <img src="images/icon-arrow-down.svg" alt="Down arrow" class="down-arrow">
+            </div>
+            
+            <p class="style-ans answers4"></p>
+          </div>
+          
+          <div class="questions">
+            <div class="container-questions">
+              <a href="#"  class="focus-questions" onclick="showAnswer(5)">Do you provide additional support?</a> <img src="images/icon-arrow-down.svg" alt="Down arrow" class="down-arrow">
+            </div>
+            
+            <p class="style-ans answers5"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </div>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>

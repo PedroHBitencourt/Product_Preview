@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+.all-elements{
+    height: 100vh;
+    font-size: 1.2rem;
+    font-family: "Kumbh Sans", sans-serif;
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: #ffffff;
+    display: grid;
+    width: 100rem;
+    height: 50rem;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 25px;
+}
+
+/* IMAGE CONTENT */
+
+.img-faq{
+    position: relative;
+}
+
+.woman-img{
+    position: absolute;
+    background-image: url("../images/illustration-woman-online-desktop.svg");
+    width: 47.2rem;
+    height: 36rem;
+    z-index: 2;
+    left: -6rem;
+    top: 60px;
+    object-fit: cover;
+    object-position: -8rem 0;
+}
+
+.bg-img{
+    position: absolute;
+    z-index: 1;
+    height: 60.5rem;
+    object-fit: cover;
+    object-position: -25rem -6rem;
+}
+
+.box-img{
+    position: absolute;
+    z-index: 3;
+    top: 20rem;
+    left: -9rem;
+}
+
+/* QUESTIONS CONTENT */
+
+.faq-questions{
+    padding: 5rem;
+    z-index: 2;
+}
+
+h1{
+    letter-spacing: 0.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.questions{
+    padding: 2.2rem 0rem 2.2rem 0rem;
+    border-bottom: 2px solid #eeeeee;
+    transition: all 0.3s;
+}
+
+.container-questions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.focus-questions:link,
+.focus-questions:active{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.focus-questions:focus{
+    font-weight: 700;
+    color: #000;
+}
+
+.focus-questions:hover{
+    color: hsl(14, 88%, 65%);
+    text-decoration: none;
+}
+
+.down-arrow{
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+.style-ans{
+    color: hsl(240, 6%, 50%);
+    font-size: 1.4rem;
+}
